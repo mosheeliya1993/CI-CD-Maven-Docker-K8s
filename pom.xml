@@ -24,28 +24,17 @@
     </dependencies>
 
     <build>
-        <!-- Other configurations -->
-    
         <plugins>
-            <!-- Other plugins -->
-    
-            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.5.5</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <mainClass>com.yourpackage.YourMainClass</mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
+                <configuration>
+                    <mainClass>com.mosheliya.demoapp.App</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+    
     
 </project>
